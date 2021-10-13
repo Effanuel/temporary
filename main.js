@@ -7,4 +7,5 @@ const validatePaymentAmount = (value) => {
   return {valid: true};
 };
 
+
 module.exports = {validatePaymentAmount};
