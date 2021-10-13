@@ -1,5 +1,5 @@
 const LOWER_BOUNDARY = 0;
-const UPPER_BOUNDARY = 100_000;
+const UPPER_BOUNDARY = 100_0;
 
 const validatePaymentAmount = (value) => {
   if (value < LOWER_BOUNDARY) return {errorMessage: `Payment amount can't be less than ${LOWER_BOUNDARY}`, valid: false};
