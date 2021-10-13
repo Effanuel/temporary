@@ -1,0 +1,23 @@
+{
+  "name": "temporary",
+  "version": "1.0.0",
+  "description": "This is a temporary repo",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Effanuel/temporary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Effanuel/temporary/issues"
+  },
+  "homepage": "https://github.com/Effanuel/temporary#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
