@@ -38,7 +38,7 @@
 		  name.replace("r", "p");
 		}
 		if (name != null || name.length > 0) {
-		  name += child.getLastName();
+		  name.concat(child.getLastName());
 		}
 	  }
 	  return this.getChildName(child);
