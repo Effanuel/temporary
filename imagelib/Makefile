@@ -28,8 +28,8 @@ clean:
 db:
 	compiledb -n make all
 
-test:
-	g++ $(CXXFLAGS) test.cpp $(HEADER) $(SOURCES) -o test $(LDLIBS)
+# test:
+# 	g++ $(CXXFLAGS) test.cpp $(HEADER) $(SOURCES) -o test $(LDLIBS)
 
-tclean:
-	rm -r test data_out
+# tclean:
+# 	rm -r test data_out
