@@ -75,6 +75,6 @@ void generateTransactions(Blockchain& blockchain, unsigned int numberOfTransacti
     std::cout << "Deleted " << numberOfTransactions - vT.size() << " invalid transactions." << std::endl;
 
     /// Add validated(with hashes and balances) transactions to unconfirmed transaction pool
-    blockchain.addTransactions(vT);
+    blockchain.addTransaction(vT);
     unvalidatedTransactions.clear();
 }
