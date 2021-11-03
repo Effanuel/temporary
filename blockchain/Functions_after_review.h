@@ -13,7 +13,7 @@ vector<User> generateUsers(unsigned int number) {
 }
 
 vector<Transaction> validateTransactions(vector<User>& blockchain_Users, vector<Transaction>& unvalidated_Transactions) {
-    using std::map<string, User> = Wallets_users;
+    using Wallets_users = std::map<string, User>;
 
     /// Validate based on previous and after hashes
     std::remove_if(unvalidated_Transactions.begin(), unvalidated_Transactions.end(),[&](Transaction& trans) {
